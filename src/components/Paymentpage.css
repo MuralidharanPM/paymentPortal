@@ -1,0 +1,171 @@
+.pageFormFieldCls {
+    display: flex;
+    flex-direction: column;
+    max-width: fit-content;
+    gap: 5px;
+    min-width: 100%;
+}
+.pageFormFieldCls input , .pageFormFieldCls select {
+    padding: 7px 10px;
+    border-radius: 6px;
+    border: 1px solid #ffffff; 
+}
+.pageFormPCls {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #000;
+    border-radius: 20px;
+    max-width: fit-content;
+    min-width: 350px;
+    overflow: hidden;
+    background-color: #ffedaa;
+}
+.pageFormFCls {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.pageFormECls {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.pageFormBtn {
+    margin-top: 30px;
+}
+.pageFormBtn button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+    outline: none;
+    border: 1px solid #8b3ced;
+    background-color: #8b3ced;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+}
+.pageFormFieldCls input:focus , .pageFormFieldCls select:focus {
+    border: 1px solid #ffffff !important;
+    outline: none !important;
+}
+.modalHCls {
+    position: absolute;
+    border: 2px solid #fbd547;
+    max-width: 60%;
+    /* height: 150px; */
+    /* width: 240px; */
+    margin: auto;
+    padding: 2%;
+    color: #010101;
+    background-color: #ffedaa;
+    border-radius: 20px;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto;
+}
+.modal-open {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.openModalBtnCls {
+    border: 2px solid #fbd547 !important;
+    border-right: 0px !important;
+    background-color: #ffedaa !important;
+    position: fixed;
+    top: 36%;
+    right: 0px;
+    background-image: url("../assets/saveMoreGif.gif");
+    background-size: 70px;
+    min-width: 70px;
+    min-height: 70px;
+    max-width: 70px !important;
+    max-height: 70px !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 10px;
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+}
+.paymentHeadTitle {
+    width: 100%;
+    padding: 25px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #8b3ced;
+}
+.fieldsHold {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.pageFormPCls {
+    padding: 0px 20px 20px 20px;
+}
+.modalHeaderCls {
+    background-color: #8b3ced;
+    border-radius: 20px;
+    padding: 10px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+}
+.modalCloseBtnCls {
+    background-color: #fbd64b;
+    outline: none;
+    border: 2px solid #fbd64b;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 8px 12px;
+}
+.modalFooterCls {
+    display: flex;
+    justify-content: center;
+}
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.TableHeadContCls {
+    padding: 8px;
+    border: 1px solid #000000;
+    font-weight: 600;
+    flex: 1;
+    text-align: center;
+}
+.tableTitleECls {
+    display: flex;
+}
+.TableBodyContCls {
+    padding: 8px;
+    border: 1px solid #000000;
+    flex: 1;
+    text-align: center;
+}
+.tableBodyECls {
+    display: flex;
+    flex-direction: row;
+}
+@media (max-width: 450px) {
+    .pageFormPCls {
+        min-width: 300px !important;
+    }
+}
+@media (max-width: 360px) {
+    .pageFormPCls {
+        min-width: 280px !important;
+    }
+}
+@media (max-width: 320px) {
+    .pageFormPCls {
+        min-width: 250px !important;
+    }
+}
