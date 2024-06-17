@@ -5,6 +5,7 @@ import Modal from 'react-bootstrap/Modal';
 export function Paymentpage() {
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [amount, setAmount] = useState(10000);
+    let [showAlty, setShowAlty] = useState(true);
     const [cardType, setCardType] = useState("Credit Card");
     const [cardNetwork, setCardNetwork] = useState("Visa");
     const [renderRates, setRenderRates] = useState([]);
@@ -49,6 +50,7 @@ export function Paymentpage() {
             });
         });
         console.log(saveRates);
+        setShowAlty((saveRates.length > 0) ? true : false);
         setRenderRates(saveRates); // Update the state with the calculated rates
     }
 
