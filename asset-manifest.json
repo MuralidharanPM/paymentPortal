@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/paymentPortal/static/css/main.edf81f0e.css",
+    "main.js": "/paymentPortal/static/js/main.8ed025cd.js",
+    "static/js/453.b356ce3d.chunk.js": "/paymentPortal/static/js/453.b356ce3d.chunk.js",
+    "static/media/saveMoreGif.gif": "/paymentPortal/static/media/saveMoreGif.bc3b42c5b1f18c158ba7.gif",
+    "index.html": "/paymentPortal/index.html",
+    "main.edf81f0e.css.map": "/paymentPortal/static/css/main.edf81f0e.css.map",
+    "main.8ed025cd.js.map": "/paymentPortal/static/js/main.8ed025cd.js.map",
+    "453.b356ce3d.chunk.js.map": "/paymentPortal/static/js/453.b356ce3d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.edf81f0e.css",
+    "static/js/main.8ed025cd.js"
+  ]
+}
